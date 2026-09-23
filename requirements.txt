@@ -1,0 +1,22 @@
+# ReconX v2.0 – OSINT Intelligence Framework
+# Python 3.10+ required
+# Install with: pip install -r requirements.txt
+
+# ── GUI ───────────────────────────────────────────────────────────────────────
+customtkinter>=5.2.2
+Pillow>=10.0.0
+
+# ── Networking & DNS ──────────────────────────────────────────────────────────
+requests>=2.31.0
+dnspython>=2.4.2
+python-whois>=0.9.2
+
+# ── Phone Number Intelligence ─────────────────────────────────────────────────
+phonenumbers>=8.13.0
+
+# ── PDF Report Generation ─────────────────────────────────────────────────────
+reportlab>=4.1.0
+
+# ── Standard library modules used (no install needed) ────────────────────────
+# threading, socket, json, os, logging, datetime, re, math, random,
+# concurrent.futures, hashlib, time, webbrowser, tkinter
